@@ -12,7 +12,7 @@ const App = () => {
     // similar to componentDidMount()
     useEffect(() => {
       console.log("12");
-      fetch('https://g1w95prspf.execute-api.ap-southeast-1.amazonaws.com/getUser/api?id=1', {
+      fetch('https://jsonplaceholder.typicode.com/users', {
         method: 'GET',
         headers: {
           Accept: 'application/json',
